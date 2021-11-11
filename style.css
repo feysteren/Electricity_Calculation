@@ -1,0 +1,58 @@
+body {
+  font-family: "IBM Plex Sans Hebrew", sans-serif;
+  background: #131313;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  margin: 0 auto;
+  width: 400px;
+  background: #3f3f3f;
+  padding: 25px;
+
+  font-size: 25px;
+}
+div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+input {
+  font-size: 20px;
+  margin: 5px 0 5px;
+  background: #3f3f3f;
+  border-width: 0 0 2px 0;
+  color: darkorange;
+}
+.span {
+  margin-top: 20px;
+}
+h1 {
+  margin-top: 39px;
+  display: flex;
+  justify-content: center;
+  color: darkorange;
+}
+button.btn {
+  margin-top: 15px;
+  font-size: 25px;
+  font-family: "IBM Plex Sans Hebrew", sans-serif;
+  font-weight: 500;
+  background: darkorange;
+  color: white;
+  border: 0;
+}
+button.btn:hover {
+  background: aqua;
+  color: #13131;
+}
+
+.sum4 {
+  display: flex;
+  align-items: center;
+}
+span {
+  color: aqua;
+}

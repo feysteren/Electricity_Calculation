@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" type="text/css" href="style.css" /> 
+
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  
+<html>
+
+ 
+  <h1>   חישוב עלות צריכת חשמל לדייר משנה</h1>
+    <div class="mainDiv">
+      
+      <div>
+        
+        <span >קריאה קודמת</span>
+        <input
+          id="input1"
+          type="number"
+          placeholder="00000.0"
+          onchange="calculation1"
+        />
+      </div>
+      <div>
+        <span class="span">קריאה נוכחית</span>
+        <input
+          id="input2"
+          type="number"
+          placeholder="00000.0"
+          onchange="calculation1"
+        />
+      </div>
+
+      <div>
+        <span class="span">עלות לקוט"ש</span>
+        <input
+          id="input3"
+          type="number"
+          placeholder="00000.0"
+          onchange="calculation1"
+        />
+      </div>
+      <div>
+        <span class="span">מע"מ</span>
+        <input
+          id="input4"
+          type="number"
+          placeholder="00000.0"
+          onchange="calculation1"
+        />
+        <button class="btn">חשב</button>
+      </div>
+       <div class="sum4">
+      <span class="span">סך הכל עלות למשתמש</span>
+      <span id="finalSum"></span>
+    </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
